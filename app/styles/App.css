@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.navbarStyle {
+  padding: 0.5rem 1rem !important;
+}
+
+.picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  transition: ease-in-out all;
+  transition-duration: 200ms;
+  transform-origin: 50%;
+}
+
+.picture:hover {
+  width: 250px;
+  height: 250px;
+  transition: ease-in-out all; /* You don't need to repeat 'transition' property */
+  transition-duration: 200ms;
+}

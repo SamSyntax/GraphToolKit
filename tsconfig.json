@@ -21,6 +21,14 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "actions/azure.action.js",
+    "utils/authConfig.js",
+    "components/AuthComponent.jsx"
+  ],
   "exclude": ["node_modules"]
 }
